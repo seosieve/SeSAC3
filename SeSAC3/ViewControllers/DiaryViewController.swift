@@ -27,11 +27,11 @@ class DiaryViewController: UIViewController {
             let image = UIImage(named: "slime\(i+1)")?.withRenderingMode(.alwaysOriginal)
             button.setImage(image, for: .normal)
             button.tag = i
-            button.addTarget(self, action: #selector(slimeButtonPressed), for: .touchUpInside)
         }
     }
     
-    @objc func slimeButtonPressed(_ sender: UIButton) {
+    //TapGesture -> Action
+    @IBAction func slimeButtonPressed(_ sender: UIButton) {
         guard let currentText = numberLabelCollection[sender.tag].text else { return }
         let currentTextArr = currentText.split(separator: " ")
         let number = (currentTextArr.count == 1 ? 0 : Int(currentTextArr[1])!)

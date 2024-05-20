@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="69w-L1-rT7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -49,6 +49,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Button" image="slime1"/>
+                                                        <connections>
+                                                            <action selector="slimeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pb2-mh-Rct"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="幸せだよ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OC3-R0-hg5">
                                                         <rect key="frame" x="0.0" y="90" width="90" height="30"/>
@@ -79,6 +82,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Button" image="slime1"/>
+                                                        <connections>
+                                                            <action selector="slimeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5mp-ls-mx0"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="大好き" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCs-9s-WeG">
                                                         <rect key="frame" x="0.0" y="90" width="90" height="30"/>
@@ -109,6 +115,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Button" image="slime1"/>
+                                                        <connections>
+                                                            <action selector="slimeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZCM-77-B6w"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="好きだよ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baB-9V-V1O">
                                                         <rect key="frame" x="0.0" y="90" width="90" height="30"/>
@@ -144,6 +153,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Button" image="slime1"/>
+                                                        <connections>
+                                                            <action selector="slimeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qAc-4g-YPG"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="慌てるよ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hd-R3-vUc">
                                                         <rect key="frame" x="0.0" y="90" width="90" height="30"/>
@@ -174,6 +186,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Button" image="slime1"/>
+                                                        <connections>
+                                                            <action selector="slimeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yb8-e8-xee"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="心が痛む" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="He9-kB-Qx1">
                                                         <rect key="frame" x="0.0" y="90" width="90" height="30"/>
@@ -204,6 +219,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Button" image="slime1"/>
+                                                        <connections>
+                                                            <action selector="slimeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HYT-bl-gnV"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="憂鬱だ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5q-rA-aHJ">
                                                         <rect key="frame" x="0.0" y="90" width="90" height="30"/>
@@ -239,6 +257,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Button" image="slime1"/>
+                                                        <connections>
+                                                            <action selector="slimeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KDq-Or-c9p"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="退屈だ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dy4-HW-HcT">
                                                         <rect key="frame" x="0.0" y="90" width="90" height="30"/>
@@ -269,6 +290,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Button" image="slime1"/>
+                                                        <connections>
+                                                            <action selector="slimeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kcq-SL-TeZ"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="感情がない" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m63-Lc-cnE">
                                                         <rect key="frame" x="0.0" y="90" width="90" height="30"/>
@@ -299,6 +323,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Button" image="slime1"/>
+                                                        <connections>
+                                                            <action selector="slimeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QSE-KE-7D7"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="恋しい" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93f-TL-4Cw">
                                                         <rect key="frame" x="0.0" y="90" width="90" height="30"/>
